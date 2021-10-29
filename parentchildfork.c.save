@@ -1,0 +1,12 @@
+#include <stdlib.h> /* needed to define exit()*/
+#include <stdio.h> /* needed to fork and getpid()*/
+#include <sys/types.h> /* needed to printf() *//* needed to fork and getpid()*/
+
+/*#include <unistd.h>*/
+
+int main ()
+{
+        fork();
+        printf("Hello World\n");
+        return 0;
+}
