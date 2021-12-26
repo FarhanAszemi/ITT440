@@ -16,21 +16,21 @@ print(Response)
 
 while True:
 
-	status = 0
-	while(status == 0):
+	answer = 0
+	while(answer == 0):
 		option = input('Enter type of operation [log / sqrt / exp]: ')
 		if(option == 'log'):
 			value1 = input("Enter your value: ")
-			status = 1
+			answer = 1
 		elif(option == 'sqrt'):
 			value1 = input("Enter your value: ")
-			status = 1
+			answer = 1
 		elif(option == 'exp'):
 			value1 = input("Enter your value: ")
-			status = 1
+			answer = 1
 		else:
 			print("Invalid operation, please re-enter..")
-			status = 0
+			answer = 0
 			
 		
 
